@@ -1,0 +1,60 @@
+body{
+    background-color: #3A4D39;
+}
+.kvad1{
+    padding: 20px;
+    background-color: #86a184;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #0000005d;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+p{
+    font-size: 36px
+}
+.kvad2{
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    background-color: #86a184;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #0000005d;
+}
+.poga{
+    width: 130px;
+    height: 40px;
+    background-color: #ECE3CE;
+    border-color: #ECE3CE;
+    color: #000000;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #0000005d;
+    position: absolute;
+    right: 10px;
+}
+.div1{
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.img1{
+    position: absolute;
+    right: 380px;
+    width: 270px;
+    height: 400px;
+}
+.img2{
+    position: absolute;
+    right: 530px;
+    top: 450px;
+    width: 400px;
+    height: 350px;
+}
+.pls{
+    padding: 170px;
+}
+.help{
+    padding: 50px;
+}
