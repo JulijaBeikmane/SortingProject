@@ -1,0 +1,140 @@
+body {
+    background-image:url(/img/fons.png);
+    background-size: 1400px 1100px ;  
+    background-repeat:repeat;
+}
+
+h1 {
+    font-size: 90px;
+    margin: auto;
+    text-align: center;
+    position: relative;
+}
+
+.main_text {
+    color: rgb(45, 211, 23);
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+    -webkit-text-stroke-width: 2px;
+}
+
+#press_text {
+    font-size:30px;
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke-color: rgba(7, 255, 139, 0.727);
+    -webkit-text-stroke-width: 1px;
+}
+
+.text-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main_dubText {
+    padding-left: 70px;
+    padding-right: 70px;
+    font-size: 30px;
+    padding-top: 100px;
+    color: rgb(151, 241, 123);
+    margin: auto;
+    text-align: center;
+    -webkit-text-stroke-color: rgb(15, 63, 13);
+    -webkit-text-stroke-width: 1px;
+}
+
+.alig {
+    margin-left: 10px; 
+    color: azure;
+    position: absolute;
+    top: 50px;
+    font-size: large;
+}
+
+.virs_logo {
+    width: 170px;
+    position:absolute;
+    margin-left: 1250px;
+    margin-bottom: 500px;
+}
+
+.section-creator__wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.section-creator__button,.section-creator__input  {
+    border: 0;
+    padding: 10px 20px;
+    font-size: 20px;
+    width: 200px;
+    margin-top: 20px;
+}
+
+.section-creator__button {
+    background-color: #e6ffe7;
+    cursor: pointer;
+    border-radius: 8px;
+    transition:background-color 0.3s;
+
+}
+
+.section-creator__input {
+    border-radius: 8px;
+}
+
+.section-creator__button:hover {
+    background-color: #45a049; 
+}
+
+.section-creator__input {
+    width: 350px;
+}
+
+.moving-plant {
+    position: relative; 
+    right: 10px;
+    z-index: 20;
+    background-repeat: no-repeat;
+    padding-left: 900px;
+    background-image:
+    url(img/virs_logo.png);
+    width: 100px;
+    height: 230px;
+    transform: rotate(-15deg);
+    animation-name: plant-move;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes plant-move {
+    from{transform: translateY(0px)};
+    to{transform: translateY(100px)};
+
+}
+
+.form_button {
+    background-color: rgb(2, 72, 36);
+    border-radius: 25px;
+    font-size: 100px;
+    width: 500px;
+    margin-top: 50px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    padding: 50px 40px;
+    color: navy;
+    transition: .2s all ease-out;
+    margin-left: 450px;
+    cursor: pointer;
+}
+
+.form_button:hover {
+    color: red;
+    background-color:#45a049;
+    margin-right: 50px;
+}
